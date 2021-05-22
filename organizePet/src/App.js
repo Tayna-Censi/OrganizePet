@@ -4,6 +4,11 @@ import ListUsers from './containers/login';
 import PasswordSend from './containers/passwordRecuperation'
 import CreateAccount from './containers/createAccount'
 import Home from './containers/home'
+import Vacina from './containers/Vacina/index'
+import Consulta from './containers/Consulta'
+import Exames from './containers/exames'
+import Dicas from './containers/Dicas'
+
 import { BrowserRouter, Switch, Route } from 'react-router-dom' 
 
 class App extends Component {
@@ -32,6 +37,11 @@ class App extends Component {
             <Route path="/password-send" component={PasswordSend} />
             <Route path="/create-account" component={CreateAccount} />
             <Route path="/home" component={Home} />
+            <Route path="/vacina" component={Vacina} />
+            <Route path="/consulta" component={Consulta} />
+            <Route path="/exames" component={Exames} />
+            <Route path="/dicas" component={Dicas} />
+
           </Switch>
         </ BrowserRouter>
       </div>

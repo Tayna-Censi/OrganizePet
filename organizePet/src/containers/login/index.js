@@ -124,7 +124,7 @@ export function User(props) {
                     <divForm>
                         <Label>
                             <img src={usernameImg} />
-                        &nbsp;&nbsp; Username
+                        &nbsp;&nbsp; Usuário
                         </Label>
                         <StyledTextField
                             //User
@@ -137,7 +137,7 @@ export function User(props) {
                         />
                         <Label>
                             <img src={passwordImg} />
-                        &nbsp;&nbsp;  Password
+                        &nbsp;&nbsp;  Senha
                         </Label>
                         <StyledTextField
                             //Password
@@ -154,9 +154,11 @@ export function User(props) {
                         </Link>
                     </divForm>
 
+                    <Link to="/home" style={{ textDecoration: 'none' }}>
                     <DivButton>
                         <ActionButton type="submit" text="Salvar" />
                     </DivButton>
+                    </Link>
 
                     <Link to="/create-account" style={{ textDecoration: 'none' }}>
                         <Text onClick={() => ""} type="" text="Voltar"> Não tem cadastro? Se cadastre aqui!</Text>

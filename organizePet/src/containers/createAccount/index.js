@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { ActionButton } from '../../components/actionButton';
+import { ActionButtonSecundary } from '../../components/actionButton';
 
 import {
     BrowserRouter as Router,
@@ -116,6 +117,9 @@ export function User(props) {
             </header>
 
             <Box>
+                <Link to="/">
+                    <ActionButtonSecundary onClick={() => ""} type="" text="Voltar"></ActionButtonSecundary>
+                </Link>
                 <FormUser
                     autoComplete="off"
                     onSubmit={handleSubmit}
@@ -134,7 +138,7 @@ export function User(props) {
                             error={errorName}
                         />
                         <Label>
-                            Username
+                            usuário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </Label>
                         <StyledTextField
                             //username
@@ -147,7 +151,7 @@ export function User(props) {
                             edit={edit}
                         />
                         <Label>
-                            Password
+                            Senha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </Label>
                         <StyledTextField
                             //Password
@@ -160,7 +164,7 @@ export function User(props) {
                             edit={edit}
                         />
                         <Label>
-                            Repeat Password
+                            repetir senha
                         </Label>
                         <StyledTextField
                             //username
@@ -175,7 +179,7 @@ export function User(props) {
                     </divForm>
 
                     <DivButton>
-                        <ActionButton type="submit" text="Salvar" />
+                        <ActionButton type="submit" text="Enviar" />
                     </DivButton>
 
                 </FormUser>
