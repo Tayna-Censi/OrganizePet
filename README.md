@@ -1,7 +1,22 @@
 <h1 align="center">Hi 👋, I'm Tayná</h1>
-<h3 align="center">A passionate frontend developer</h3>
+<p> <b> Turma: </b> TE00665IT-N-TE-0120211 </p>
+<p> <b> Coordenadores: </b> Silvio Petroli Neto e Vânia Franciscon Vieira </p>
+<p> <b> Docente: </b> José Matias Lemes Filho </p>
 
-- 🔭 I’m currently working on **OrganizePet**
+- 🔭 O projeto se chama **OrganizePet**
+
+<p align="left">
+  
+    Pricipais funções do projeto: 
+  
+    1. Cadastro do animal - Terá os dados básicos do/s animal/is - Poderá ser cadastrado mais de um animal 
+    2. Gestão 
+        - Gerenciamento de vacinas
+        - Local para guardar documentos de exames/receitas - Gerenciamento de Castração *** TRABALHOS FUTUROS
+        - Dicas de comida ideal e qual areia/tapete higiênico usar para cada ocasião *** TRABALHOS FUTUROS
+        - Calendário com avisos de medicação/veterinário *** TRABALHOS FUTUROS
+    3. Dicas e curiosidades - Filtro (espécie, dicas de ração, curiosidades e dicas em geral)  *** TRABALHOS FUTUROS
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
