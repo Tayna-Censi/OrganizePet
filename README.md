@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Tayná</h1>
+<h1 align="center"> OrganizePet 😺 </h1>
 
 <h2> Universidade de São Francisco </h2>
 <p> <b> Turma: </b> TE00665IT-N-TE-0120211 </p>
